@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- swiper link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <!-- cdn icons link -->
-    <script src="https://kit.fontawesome.com/9552adc6e4.js" ></script>
+    <script src="https://kit.fontawesome.com/9552adc6e4.js"></script>
     <!-- Css Files -->
     <link rel="stylesheet" href="style.css">
     <title>Postres Ada</title>
 </head>
+
 <body>
-    
+
     <!-- Header Section Start -->
     <header class="header">
         <div class="logoContent">
-            <a href="#"><img src="images/Cute Cat Grooming Logo (1).jpg" width="80px" alt=""></a>
-            <h1 class="logoName">Los Postres de Ada</h1>
+            <a href="#" class="logo"><img src="images/cat2.png" class="cat"></a>
+
+            <h1 class="logoName">Neko Cakes</h1>
         </div>
 
         <nav class="navbar">
@@ -28,15 +34,214 @@
         </nav>
 
         <div class="icon">
-            <i><img src="/images/bars-solid.svg" width="20px"></i>
+            <i><img src="/images/bars-solid.svg" id="bar"></i>
         </div>
+
+
     </header>
+    <!-- End Header Section  -->
+
+    <!-- Home Section Start -->
+
+    <section class="home" id="home">
+        <div class="homeContent">
+            <h2>Postres deliciosos para todos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda reprehenderit quasi ullam, nobis,
+                placeat quo quia praesentium sed non ea exercitationem culpa minima provident cumque ipsam quibusdam
+                illum voluptatem temporibus?</p>
+
+            <div class="home-btn">
+                <a href="#"><button>Ver más</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Home Section End -->
+
+    <!-- Product Section Start -->
+
+    <section class="product" id="product">
+        <div class="heading">
+            <h2>Nuestros Productos Exclusivos</h2>
+        </div>
+
+        <!-- Pagination Product 1  -->
+
+        <div class="swiper product-row">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake1.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Tiramisu</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="ordernow">
+                            <button>Encargar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake2.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Red Velvelt</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="ordernow">
+                            <button>Encargar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake3.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocotorta</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="ordernow">
+                            <button>Encargar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cookies-gb7c5ab8f1_1920.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Cookies</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="ordernow">
+                            <button>Encargar</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Pagination Product 2  -->
+
+        <div class="heading">
+            <h2>Nuestras tortas</h2>
+        </div>
 
 
+        <div class="swiper product-row">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake1.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Tiramisu</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="ordernow">
+                            <button>Encargar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake2.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Red Velvelt</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="ordernow">
+                            <button>Encargar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake3.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocotorta</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="ordernow">
+                            <button>Encargar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cookies-gb7c5ab8f1_1920.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Cookies</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="ordernow">
+                            <button>Encargar</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Product Section End -->
 
 
-    <!-- Js Files -->
-    <script src="index.js"></script>
+    <!-- about section start -->
+    <div class="about" id="about">
+        <div class="about-row">
+            <div class="box">
+                <div class="img">
+                    <img src="images/blog1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Que hace nuestros postres especiales?</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur sed odit rerum laudantium
+                        maiores voluptas dolores voluptate error corporis earum hic itaque sunt, vitae iste ab id
+                        possimus pariatur eius.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, perferendis nesciunt culpa
+                        eaque error dicta est, iure eos sunt necessitatibus.</p>
+                    <a href="#about" class="btn">Contactanos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section end -->    
+
+    <!-- form section start -->
     
+    <div class="container">
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+                <h2>Haz tu pedido aqui</h2>
+                <input type="text" class="field" placeholder="Tu Nombre">
+                <input type="email" class="field" placeholder="Tu Email">
+                <input type="text" class="field" placeholder="Teléfono">
+                <textarea class="field area" placeholder="Mensage"></textarea>
+                <button class="btn">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- form section end -->
+
+    <!-- swiper  js link -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Js Files Custom -->
+    <script src="index.js"></script>
+
 </body>
+
 </html>
