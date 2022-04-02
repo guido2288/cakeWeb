@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="icon" type="image/jpg" href="/images/cupcake.png">
     <!-- swiper link -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
@@ -28,7 +28,7 @@
 
         <nav class="navbar">
             <a href="#home">home</a>
-            <a href="#productos">productos</a>
+            <a href="#product">productos</a>
             <a href="#blog">detras de la cocina</a>
             <a href="#contacto">contacto</a>
         </nav>
@@ -197,7 +197,7 @@
 
 
     <!-- about section start -->
-    <div class="about" id="about">
+    <div class="about" id="blog">
         <div class="about-row">
             <div class="box">
                 <div class="img">
@@ -220,21 +220,71 @@
 
     <!-- form section start -->
     
-    <div class="container">
+    <div class="form-title"  id="contacto">
+        <h3>Por favor envianos tu pedido o consulta por este medio, y a la brevedad te estaremos respondiento.</h3>
+    </div>
+    <div class="container" >
+
         <div class="contact-box">
             <div class="left"></div>
             <div class="right">
                 <h2>Haz tu pedido aqui</h2>
-                <input type="text" class="field" placeholder="Tu Nombre">
-                <input type="email" class="field" placeholder="Tu Email">
-                <input type="text" class="field" placeholder="Teléfono">
-                <textarea class="field area" placeholder="Mensage"></textarea>
-                <button class="btn">Enviar</button>
+     
+                    <input type="text" name="name" class="field" placeholder="Tu Nombre" required id="name">
+                    <input type="email" name="email" class="field" placeholder="Tu Email" required id="email">
+                    <input type="text" name="text" class="field" placeholder="Teléfono" required id="phone">
+                    <textarea class="field area" placeholder="Mensage" id="message"></textarea>
+                    <button class="btn" type="submit" id="sendEmail">Enviar</button>
+                
             </div>
         </div>
     </div>
 
     <!-- form section end -->
+
+    <!-- footer section start -->
+
+
+    <footer class="footer" id="footer">
+        <div class="box-container">
+            <div class="main-box">
+                <div class="content">
+                    <a href="#"><img src="/images/cat2.png" alt="logo"></a>
+                    <h1 class="logoName">Neko Cakes</h1>
+                </div>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ea deserunt possimus ullam esse autem, magnam nostrum voluptas.</p>
+
+            </div>
+            <div class="box">
+                <h3>Nuestras Redes</h3>
+                <a href="#"><i><img src="/images/facebook.png" ></i></a>
+                <a href="#"><i><img src="/images/instagram.png" ></i></a>
+            </div>
+            <div class="contact-info">
+                <h3>Contactanos</h3>
+                <a href="#"><i><img src="/images/mapa.png" > Dardo Rocha 611 Llavallol</i></a>
+                <a href="#"><i><img src="/images/phone.png"> 011-3355-7205</i></a>
+                <a href="#"><i><img src="/images/gmail.png"> ady2291@gmail.com</i></a>
+            </div>
+
+
+
+        </div>
+
+        <div class="credit">
+            Diseño <span>Guido Garcia</span>
+        </div>
+    </footer>
+
+
+
+    <!-- smtpjs  -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
 
     <!-- swiper  js link -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

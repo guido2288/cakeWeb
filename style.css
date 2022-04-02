@@ -283,6 +283,19 @@ section {
   /* filter: blur(5px); */
 }
 
+.form-title {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-top: 4rem;
+  color: var(--black);
+}
+
+.form-title h3 {
+  font-size: 3.5rem;
+  color: var(--black);
+  text-shadow: var(--box-shadow);
+}
+
 .contact-box{
   max-width: 130rem;
   display: grid;
@@ -292,6 +305,7 @@ section {
   text-align: center;
   background-color: var(--main);
   box-shadow: var(--box-shadow);
+  
 }
 
 .left{
@@ -357,19 +371,94 @@ section {
   cursor: pointer;
 }
 
+input {
+  text-transform: none;
+}
 
 
+.footer {
+  background: url(/images/backGround.png);
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem , 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.footer .box-container .main-box .content{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.footer .box-container .main-box .content img{
+  height: 5rem;
+}
+
+.footer .box-container .main-box .content h1{
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.footer .box-container .main-box p{
+  font-size: 1.7rem;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+
+.footer .box-container .box{
+  text-align: center;
+}
+
+.footer .box-container .box h3{
+  font-size: 2.2rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+.footer .box-container .box img{
+  height: 5rem;
+  padding: 1rem;
+}
+
+.footer .box-container .box img:hover{
+  height: 5.5rem;
+  padding: 0;
+}
 
 
+.footer .box-container .contact-info a{
+  display: flex;
+  padding-top: 1rem;
+}
 
+.footer .box-container .contact-info h3{
+  font-size: 2.2rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
 
+.footer .box-container .contact-info a img{
+  height: 3rem;
 
+}
 
+.footer .box-container .contact-info i{
+  color: var(--black);
+  font-size: 1.4rem;
+}
 
-
-
-
-
+.footer .credit{
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 3rem;
+  color: var(--black);
+}
 
 
 
@@ -425,6 +514,8 @@ section {
     margin-left: 0;
     width: 90%;
   }
+
+  
 }
 
 @media (max-width: 600px) {
